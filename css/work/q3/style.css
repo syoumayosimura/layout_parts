@@ -1,5 +1,92 @@
 @charset "UTF-8";
 
+.q3_8::after {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: 0;
+  right: 0;
+  background-color: #ffefd3;
+}
 
+.q3_group {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  background-color: #ecf1f2;
+}
+
+.q3_group .box {
+  position: absolute;
+  font-size: 30px;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.q3_8 {
+  position: relative;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+  background-color: #de70cf;
+}
+
+.q3_5 {
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+  background-color: #9fd6d2;
+}
+
+.q3_1 {
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+  background-color: #ffefd3;
+}
+
+.q3_7 {
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+  background-color: #deae70;
+}
+
+.q3_4 {
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+  background-color: #8b7a5e;
+}
+
+.q3_6 {
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+  background-color: #fffee4;
+}
+
+.q3_2 {
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+  background-color: #7084de;
+}
+
+.q3_3 {
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+  background-color: #d0ecea;
+}
+
+.q3_scroll {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */
