@@ -10,20 +10,23 @@
 
 .q2_table th , .q2_table td {
   padding: 10px;
-  border: 1px;
-  border-style: solid;
-  border-color: #dedede;
-}
-
-.q2_table tbody tr:last-child {
-  border-top: 2px;
-  border-style: dashed;
-  border-color: #000;
+  border: 1px solid #dedede;
 }
 
 .q2_table th {
   color: white;
   background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q2_table td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.q2_table tbody tr:last-child {
+  border-top: 2px dashed #000;
 }
 
 .q2_table tr:nth-child(odd) td {
