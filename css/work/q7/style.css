@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-.q7_text::after , .q7_text::before {
+.q7_text::after, .q7_text::before {
   content: "";
   position: absolute;
-  top: 70px;
+  top: 80px;
   border: 25px solid transparent;
   width: 0px;
   height: 0px;
@@ -20,25 +20,23 @@
 }
 
 .q7_box {
-  position: relative;
-  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .q7_icon {
-  position: absolute;
-  top: 70px;
-  left: 100px;
-
+  padding-bottom: 5px;
 }
 
 .q7_text {
-  position: absolute;
-  top: 0px;
-  right: 200px;
+  position: relative;
   box-sizing: border-box;
   width: 550px;
   font-size: 16px;
   border: 5px solid black;
   border-radius: 30px;
   padding: 20px;
+  margin-left: 35px;
+  word-break: break-all;
 }

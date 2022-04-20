@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.q5_float::after {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -11,7 +11,10 @@
   margin-left: 60px;
 }
 
-.q5_float_text:first-child , .q5_table-cell_text:first-child .q5_text , .q5_inline-brock_text:first-child , .q5_flex_text:first-child , .q5_calc_text:first-child {
+.q5_float_text:first-child,
+.q5_inline-brock_text:first-child,
+.q5_flex_text:first-child,
+.q5_calc_text:first-child {
   margin-left: 0px;
 }
 
@@ -19,21 +22,29 @@
   float: left;
 }
 
-.q5_table-cell {
+.q5_table {
   display: table;
 }
 
-.q5_table-cell_text {
+.q5_table-cell {
   display: table-cell;
+  padding-left: 60px;
 }
 
-.q5_inline-brock , .q5_calc {
-  letter-spacing: -1em;
+.q5_table-cell:first-child {
+  padding-left: 0px;
+}
+
+.q5_table-cell .q5_text {
+  margin-left: 0px;
+}
+
+.q5_inline-brock, .q5_calc {
+  font-size: 0;
 }
 
 .q5_inline-brock_text, .q5_calc_text {
   display: inline-block;
-  letter-spacing: normal;
 }
 
 .q5_flex {
@@ -43,6 +54,11 @@
 .q5_calc_text {
   margin-left: calc(50px / 2);
   width: calc((100% - 50px) / 3);
+
+  /*
+  margin-left: calc(60px / 2);
+  width: calc(800px / 3);
+  */
 }
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
