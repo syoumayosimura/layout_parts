@@ -15,41 +15,13 @@
 }
 
 .q7_text::after {
-  left: -50px;
+  left: -47px;
   border-right-color: #fff;
 }
 
-/*
-.q7_text::before {
-  content: "";
-  position: absolute;
-  top: 70px;
-  left: -30px;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-right: 30px solid #222;
-  border-top-width: 30px;
-  border-bottom-width: 30px;
-  width: 0px;
-  height: 0px;
-}
-
-.q7_text::after {
-  content: "";
-  position: absolute;
-  top: calc(70px + (30px - 25px));
-  left: -25px;
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
-  border-right: 25px solid #fff;
-  border-top-width: 25px;
-  border-bottom-width: 25px;
-  width: 0px;
-  height: 0px;
-}*/
-
 .q7_box {
   position: relative;
+  height: 200px;
 }
 
 .q7_icon {
