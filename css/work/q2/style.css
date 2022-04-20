@@ -29,7 +29,7 @@
   border-top: 2px dashed #000;
 }
 
-.q2_table tr:nth-child(odd) td {
+.q2_table tr:nth-child(even) td {
   background-color: #ecf1f2;
 }
 /* q2が終わったら
